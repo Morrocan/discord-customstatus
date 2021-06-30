@@ -7,8 +7,8 @@ const client = new discord.Client({ fetchAllMembers: true });
 client.on("ready", async () => {
   console.log("Client is ready. Node is superior to python :)");
 
-  const guild = await client.guilds.fetch("858796571994488972", true, false),
-    role = await guild.roles.fetch("858803162663616553");
+  const guild = await client.guilds.fetch("PUT SERVER ID HERE", true, false),
+    role = await guild.roles.fetch("PUT ROLE ID HERE");
 
   for (true; true; true) {
     for (const member of guild.members.cache.values()) {
