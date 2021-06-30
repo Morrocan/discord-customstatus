@@ -1,0 +1,22 @@
+{
+  "name": "discord-customstatus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.2.7",
+    "package.json": "^2.0.1",
+    "ytdl-core": "^4.4.1"
+  },
+  
+  },
+  "keywords": [
+    "discord",
+    "customstatus",
+    "giverank"
+  ],
+  "author": "quatro x withmask",
+  "license": "ISC"
+}
